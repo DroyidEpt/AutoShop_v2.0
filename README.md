@@ -21,3 +21,7 @@
 # 🌺 Скриншоты:
 ![.start]([https://cdn.discordapp.com/attachments/1279796251621064738/1340683149448843326/image.png])
 ![.ashop]([https://cdn.discordapp.com/attachments/1279796251621064738/1340683131581235303/image.png])
+
+# ❗ Обзор:
+
+https://www.youtube.com/watch?v=hAlUaqVT4h8
