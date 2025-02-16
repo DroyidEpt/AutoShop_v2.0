@@ -12,7 +12,7 @@ UPLOAD_DIR = "shop_files"
 
 client = Client(yoomoney_token)
 
-db = sqlite3.connect("dbs/shopdb.db")
+db = sqlite3.connect("shopdb.db")
 cursor = db.cursor()
 
 cursor.execute("CREATE TABLE IF NOT EXISTS shop (id INT, name TEXT, description TEXT, author TEXT, price INT, tovar TEXT, status INT)")
