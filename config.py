@@ -1,18 +1,13 @@
 
-#    _/_/_/              _/_/_/_/  _/  _/  _/      _/   
-#   _/    _/    _/_/    _/        _/      _/_/    _/    
-#  _/_/_/    _/    _/  _/_/_/    _/  _/  _/  _/  _/     
-# _/    _/  _/    _/  _/        _/  _/  _/    _/_/      
-#_/    _/    _/_/    _/        _/  _/  _/      _/
 
-#токен бота
-token = ''
+#юмени токен (https://yoomoney.ru/myservices/new), следом client_id и redirect_url вписываем в give_token_yoomoney.py, вам выдает консоль ссылку, заходите на сайт, следом подтверждаете, следом вы переходите(автоматом) на редирект сайт, но в конце будет(?url=(code)), вписываете код и вот токен.
+yoomoney_token = ''
 
-#киви токен (https://p2p.qiwi.com/)
-qiwi_token = ''
-              
-#администраторы с доступом к s!ashop
-admins_ids = [0, 0]
+#Юмани счет.
+yoomoney_shet = ''
+
+#администраторы
+adminlist = []
 
 #айди канала логов (туда все логи покупок и пополнений)
 logid = 0
@@ -27,4 +22,4 @@ guildid = 0
 iconurl = 'https://media.discordapp.net/attachments/1063449709412356126/1065627669548503070/7510046.png'
 
 #ссылка на канал/сообщение/сервер вашей поддержки
-supporturl = 'https://discord.gg/TEuCA9EdmS'
+supporturl = 'https://discord.gg/rp3rTsCQTj'
