@@ -2,7 +2,7 @@ import disnake
 from disnake.ext import commands
 from disnake import TextInputStyle
 from yoomoney import Client, Quickpay
-from utils.config import yoomoney_token, yoomoney_shet, adminlist, logid, roleid, guildid, iconurl, supporturl
+from config import yoomoney_token, yoomoney_shet, adminlist, logid, roleid, guildid, iconurl, supporturl
 import sqlite3
 import random
 import os
